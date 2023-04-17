@@ -23,6 +23,8 @@
     <h2>Add a User</h2>
 
     <form method="POST" action="/users" >
+        {{ csrf_field() }}
+
         <p>
             <input type="text" name="name" placeholder="Name" required>
         </p>

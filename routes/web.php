@@ -23,3 +23,4 @@ Route::get('/', function () {
 // });
 
 Route::get('users', 'UsersController@index');
+Route::post('users', 'UsersController@store');
